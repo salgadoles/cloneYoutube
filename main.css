@@ -1,0 +1,140 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+header img{
+    margin: 5px 15px 5px 15px;
+
+}
+.center {
+    display: flex;
+    align-items: center;
+    border-radius: 5;
+    height: 40px;
+    width: 404px;
+}
+
+.center input {
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+    width: 345px;
+    height: 30px;
+}
+
+.center button {
+    width: 57px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    top: 8px;
+    left: 873px;
+}
+
+.center button img {
+    width: 20px;
+    height: 20px;
+    top: 84px;
+    left: 75px;
+    gap: 16px;
+    opacity: 0px;
+
+}
+iframe{
+   margin-left: 60px;
+   margin-top: 10px;
+   border-radius: 15px;
+   
+}
+.campoSugestoes{
+display: flex;
+justify-content: flex-end;
+position: absolute;
+flex-direction: column;
+text-align: right;
+flex: 3;
+padding: 20px       ;
+}
+
+.titulo-vdoprc{
+    font-size: 22px;
+    margin-left: 3%;
+    font-weight: bold;
+    
+}
+
+.linhaOP {
+
+}
+
+.linhaOP img{
+border-radius: 100%;
+width: 42px;
+height: 42px;
+gap: 0px;
+opacity: 0px;
+margin-left: 3%;
+}
+
+.linhaOP p{
+margin-left: 7%;
+margin-top: -2%;
+font-weight: bold;
+opacity: 80%;
+}
+.sidebar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+
+.sidebar .videozin {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #121212;
+    transition: .4s;
+}
+
+.sidebar a:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
+}
+
+.sidebar img{
+    border-radius: 7px;
+}
+.infos h4, p {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+main{
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+}
+
+.titulo-vdoprc > .tittle{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    opacity: 90%;
+}
